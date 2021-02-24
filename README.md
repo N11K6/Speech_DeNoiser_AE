@@ -18,7 +18,7 @@ The model architecture chosen is a relatively simple Convolutional Autoencoder, 
 
 ![alt text](https://github.com/N11K6/Speech_DeNoiser_AE/blob/main/images/autoencoder_schem.png?raw=true)
 
-It should be noted, that although more complex autoencoder architectures were tested, including Dense layer latent space representaions and a Variational Autoencoder, the minimalistic architecture above proved to be more efficient given the small size of the dataset, and the relatively simple separation task.
+It should be noted, that although more complex autoencoder architectures were tested, including Dense layer latent space representaions and a Variational Autoencoder, the minimalistic architecture above proved to be more efficient given the small size of the dataset [2], and the relatively simple separation task.
 
 ## Results
 
