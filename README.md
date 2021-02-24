@@ -51,4 +51,5 @@ It should be noted, that although more complex autoencoder architectures were te
 ## References
 
 > [1] Becker, Sören & Ackermann, Marcel & Lapuschkin, Sebastian & Müller, Klaus-Robert & Samek, Wojciech. (2018). Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals. 
+
 > [2] Huajian Fang, Guillaume Carbajal, Stefan Wermter, Timo Gerkmann. (2021). Variational Autoencoder for Speech Enhancement with a Noise-Aware Encoder. arXiv:2102.08706
