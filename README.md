@@ -40,7 +40,7 @@ It should be noted, that although more complex autoencoder architectures were te
 
 ## Flask REST API
 
-A very bare-bones REST API implementation based around the interaction between a server and a client is included. The server needs to be instantiated first by running the corresponding program. By calling the client script, a request is sent to the server to read from a specified audio file and denoise it using the autoencoder. The server then returns the denoised data in a list. The client script in turn receives this list and writes it into a new audio file (*flask_denoised.wav* in the *audio_files* directory). As I gain more experience with Flask and REST APIs I aim to make a more substantial and user-friendly implementation.
+A very bare-bones REST API implementation based around the interaction between a server and a client is included. The server needs to be instantiated first by running the corresponding program. By calling the client script, a request is sent to the server to read from a specified audio file and denoise it using the autoencoder. The server then returns the denoised data in a list. The client script in turn receives this list and writes it into a new audio file (*"flask_denoised.wav"* in the *"audio_files"* directory). As I gain more experience with Flask and REST APIs I aim to make a more substantial and user-friendly implementation.
 
 ## Repository Contents
 
