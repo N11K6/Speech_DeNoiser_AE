@@ -40,13 +40,13 @@ It should be noted, that although more complex autoencoder architectures were te
   
 ## Repository Contents
 
-* **Notebooks :** Directory for the *.ipynb* file accompanying the code. This notebook outlines the feature generation process and methodology of the project.
-* **audio_files :** Directory for the audio files used in the above notebook and in the demonstration of the model.
-* **images :** Directory for the images used in this presentation.
-* **trained_models :** Directory for storing the trained models.
-* *preprocess.py* : Preprocessing pipeline to assemble a training dataset by reading in from the original audio samples and generating clean and noisy spectrograms.
-* *train.py* : Training pipeline for the denoising autoencoder.
-* *denoise.py* : Program utilizing the denoiser object to perform denoising on an audio sample, using the pre-trained model.
+* *Notebooks* : Directory for the *.ipynb* file accompanying the code. This notebook outlines the feature generation process and methodology of the project.
+* *audio_files* : Directory for the audio files used in the above notebook and in the demonstration of the model.
+* *images* : Directory for the images used in this presentation.
+* *trained_models* : Directory for storing the trained models.
+* **preprocess.py** : Preprocessing pipeline to assemble a training dataset by reading in from the original audio samples and generating clean and noisy spectrograms.
+* **train.py** : Training pipeline for the denoising autoencoder.
+* **denoise.py** : Program utilizing the denoiser object to perform denoising on an audio sample, using the pre-trained model.
 
 ## References
 
