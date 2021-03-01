@@ -37,7 +37,11 @@ It should be noted, that although more complex autoencoder architectures were te
   *The sound files for the above spectrograms can be found in the "audio_files" directory as "test_clean.wav", "test_noisy.wav" and "test_denoised.wav".*
   
   Overall, the autoencoder-based denoiser appears adequate in its task, especially considering its simplicity. Further development would increase the size of the training dataset, and it is expected that a more advanced architecture could then be utilized to improve performance. In particular, aspects in the reconstruction such as managing to predict features that are otherwise completely drowned by noise would benefit from a larger dataset, as well as a more diverse implementaion of noise addition to the clean samples.
-  
+
+## Flask REST API
+
+A very bare-bones REST API implementation based around the interaction between a server and a client is included. The server needs to be instantiated first by running the corresponding program. By calling the client script, a request is sent to the server to read from a specified audio file and denoise it using the autoencoder. The server then returns the denoised data in a list. The client script in turn receives this list and writes it into a new audio file (*flask_denoised.wav* in the *audio_files* directory). As I gain more experience with Flask and REST APIs I aim to make a more substantial and user-friendly implementation.
+
 ## Repository Contents
 
 * *Notebooks* : Directory for the *.ipynb* file accompanying the code. This notebook outlines the feature generation process and methodology of the project.
@@ -47,6 +51,8 @@ It should be noted, that although more complex autoencoder architectures were te
 * **preprocess.py** : Preprocessing pipeline to assemble a training dataset by reading in from the original audio samples and generating clean and noisy spectrograms.
 * **train.py** : Training pipeline for the denoising autoencoder.
 * **denoise.py** : Program utilizing the denoiser object to perform denoising on an audio sample, using the pre-trained model.
+* **server.py** : Server for the Flask implementation.
+* **client.py** : Client for the Flask implementation.
 
 ## References
 
