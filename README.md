@@ -36,7 +36,8 @@ It should be noted, that although more complex autoencoder architectures were te
   
   *The sound files for the above spectrograms can be found in the "audio_files" directory as "test_clean.wav", "test_noisy.wav" and "test_denoised.wav".*
   
-  Overall, the autoencoder-based denoiser appears adequate in its task, especially considering its simplicity. Further development would increase the size of the training dataset, and it is expected that a more advanced architecture could then be utilized to improve performance. In particular, aspects in the reconstruction such as managing to predict features that are otherwise completely drowned by noise would benefit from a larger dataset, as well as a more diverse implementaion of noise addition to the clean samples.
+  Overall, the autoencoder-based denoiser appears adequate in its task, especially considering its simplicity. Further development could begin from expansion of the training dataset, using more files, and a more diverse implementation of noise to the clean samples (different "colors" of noise, other recordings superimposed). 
+Given this, the actual capabilities of more advanced Autoencoder architectures could be taken advantage of.
 
 ## Flask API
 
